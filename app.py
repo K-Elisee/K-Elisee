@@ -59,7 +59,7 @@ with st.sidebar:
         **System:** Diabetes Prediction  
         **Approach:** Machine Learning Classifier  
         **Student ID:** 25RP18236 
-        **Framework:** Streamlit  
+        **RP-TUMBA-College :**B.Tech MECHATRONICS
         """
     )
     st.markdown("---")
@@ -73,7 +73,7 @@ st.markdown(
     """
     <h1 class="title-text">🩺 Diabetes Prediction System</h1>
     <p class="subtitle-text">
-        An intelligent system to assess diabetes risk using clinical indicators
+        PRACTICAL CONTINUOUS ASSESSMENT
     </p>
     """,
     unsafe_allow_html=True

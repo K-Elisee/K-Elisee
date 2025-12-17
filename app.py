@@ -56,9 +56,8 @@ with st.sidebar:
     st.markdown("## 📌 Project Overview")
     st.info(
         """
-        **System:** Diabetes Prediction  
-        **Approach:** Machine Learning Classifier  
-        **Student ID:** 25RP18236 
+        **System:** Diabetes Prediction   
+        **REG_NUMBER:** 25RP18236 
         **RP-TUMBA-College :**B.Tech MECHATRONICS
         """
     )

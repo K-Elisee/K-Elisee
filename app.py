@@ -53,11 +53,11 @@ model, scaler = load_artifacts()
 # Sidebar (Professional & Minimal)
 # ---------------------------------------------
 with st.sidebar:
-    st.markdown("## 📌 Project Overview")
+    st.markdown("## 📌 CAT")
     st.info(
         """
         **System:** Diabetes Prediction   
-        **REG_NUMBER:** 25RP18236 
+        **REG_NUMBER:25RP18236 
         **B.Tech MECHATRONICS
         """
     )
@@ -90,15 +90,15 @@ with st.form("prediction_form"):
 
     with col1:
         pregnancies = st.number_input("🤰 Pregnancies", min_value=0, max_value=20, help="Number of times pregnant")
-        glucose = st.number_input("🩸 Glucose Level (mg/dL)", min_value=0, help="Plasma glucose concentration")
-        blood_pressure = st.number_input("💓 Blood Pressure (mm Hg)", min_value=0)
-        skin_thickness = st.number_input("📏 Skin Thickness (mm)", min_value=0)
+        glucose = st.number_input("🩸 Glucose Level ", min_value=0, help="Plasma glucose concentration")
+        blood_pressure = st.number_input("💓 Blood Pressure ", min_value=0)
+        skin_thickness = st.number_input("📏 Skin Thickness ", min_value=0)
 
     with col2:
-        insulin = st.number_input("💉 Insulin Level (IU/mL)", min_value=0)
-        bmi = st.number_input("⚖️ BMI (kg/m²)", min_value=0.0, format="%.2f")
+        insulin = st.number_input("💉 Insulin Level ", min_value=0)
+        bmi = st.number_input("⚖️ BMI ", min_value=0.0, format="%.2f")
         dpf = st.number_input("📊 Diabetes Pedigree Function", min_value=0.0, format="%.3f")
-        age = st.number_input("🎂 Age (years)", min_value=1, max_value=120)
+        age = st.number_input("🎂 Age ", min_value=1, max_value=120)
 
     submit = st.form_submit_button("🔍 Predict Risk")
 

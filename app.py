@@ -61,22 +61,7 @@ with st.sidebar:
         **B.Tech MECHATRONICS
         """
     )
-    st.markdown("---")
-    st.markdown("### ℹ️ Instructions")
-    st.write("Enter accurate patient health values to obtain a reliable prediction.")
-
-# ---------------------------------------------
-# App Header
-# ---------------------------------------------
-st.markdown(
-    """
-    <h1 class="title-text">🩺 Diabetes Prediction System</h1>
-    <p class="subtitle-text">
-        PRACTICAL CONTINUOUS ASSESSMENT
-    </p>
-    """,
-    unsafe_allow_html=True
-)
+    
 
 # ---------------------------------------------
 # Input Section

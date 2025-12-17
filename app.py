@@ -9,7 +9,7 @@ import numpy as np
 # Page Configuration
 # ---------------------------------------------
 st.set_page_config(
-    page_title="PRACTICAL CONTINUOUS ASSESSMENT OF AI",
+    page_title="P_CAT_AI",
     page_icon="🩺",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -57,7 +57,7 @@ with st.sidebar:
     st.info(
         """
         **System:** Diabetes Prediction   
-        **REG_NUMBER:25RP18236 
+        **REG_NUMBER:** 25RP18236 
         **B.Tech MECHATRONICS
         """
     )

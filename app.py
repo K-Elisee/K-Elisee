@@ -14,7 +14,7 @@ scaler = joblib.load("25RP18236_scaler.joblib")
 # ==========================
 # Segment 3: App Title
 # ==========================
-st.title("25RP18236")
+st.title("[25RP18236]")
 st.title("Diabetes Prediction System")
 
 # ==========================

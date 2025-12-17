@@ -107,10 +107,9 @@ if submit:
 
     if prediction[0] == 1:
         st.error("⚠️ **High Risk of Diabetes Detected**")
-        st.write("👉 Recommendation: Please consult a healthcare professional for further diagnosis.")
+       
     else:
         st.success("✅ **Low Risk of Diabetes**")
-        st.write("👍 Maintain a healthy lifestyle and regular medical check-ups.")
 
     st.markdown("</div>", unsafe_allow_html=True)
 

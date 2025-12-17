@@ -58,7 +58,7 @@ with st.sidebar:
         """
         **System:** Diabetes Prediction   
         **REG_NUMBER:** 25RP18236 
-        **B.Tech MECHATRONICS
+        **MECHATRONICS**
         """
     )
     

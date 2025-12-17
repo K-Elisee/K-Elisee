@@ -135,7 +135,7 @@ if submit:
 st.markdown(
     """
     <div class="footer">
-        © 2025 | Diabetes Prediction System | Built with ❤️ using Streamlit
+        © 2025 | KWIZERA Elisee| RP Tumba College
     </div>
     """,
     unsafe_allow_html=True

@@ -9,7 +9,7 @@ import numpy as np
 # Page Configuration
 # ---------------------------------------------
 st.set_page_config(
-    page_title="Diabetes Prediction System",
+    page_title="PRACTICAL CONTINUOUS ASSESSMENT OF AI",
     page_icon="🩺",
     layout="centered",
     initial_sidebar_state="expanded"

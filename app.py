@@ -119,7 +119,7 @@ if submit:
 st.markdown(
     """
     <div class="footer">
-        © 2025 | KWIZERA Elisee| RP Tumba College
+        © 2025 | KWIZERA Elisee 0780605808| RP Tumba College
     </div>
     """,
     unsafe_allow_html=True
